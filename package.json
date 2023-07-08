@@ -2,6 +2,7 @@
   "name": "app-dogs",
   "version": "0.0.1",
   "description": "Dogs app",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "test": "jest",
