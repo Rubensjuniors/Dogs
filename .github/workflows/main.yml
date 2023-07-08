@@ -9,7 +9,7 @@ on:
       - main
 
 jobs:
-  build-and-lint:
+  test:
     runs-on: ubuntu-latest
 
     steps:
@@ -28,7 +28,6 @@ jobs:
         run: npm test
 
   lint:
-    needs: build-and-lint
     runs-on: ubuntu-latest
 
     steps:
