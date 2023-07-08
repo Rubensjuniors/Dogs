@@ -2,7 +2,7 @@
   "name": "app-dogs",
   "version": "0.0.1",
   "description": "Dogs app",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "dev": "vite",
     "test": "jest",
